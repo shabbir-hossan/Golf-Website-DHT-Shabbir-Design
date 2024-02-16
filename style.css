@@ -254,3 +254,61 @@ video {
   color: #000;
   font-size: 16px;
 }
+
+#green-div {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: salmon; */
+  background: linear-gradient(to left bottom, #27a535, #a7d821);
+}
+
+#green-div h4 {
+  width: 50%;
+  line-height: 45px;
+  font-weight: 900;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#green-div img {
+  height: 100%;
+  object-fit: cover;
+  width: 15%;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#page3 > p {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  width: 65%;
+  text-align: center;
+}
+
+#page3 img {
+  position: absolute;
+  height: 50px;
+}
+
+#page3 .colon1 {
+  left: 10%;
+  top: 25%;
+}
+
+#page3 .colon2 {
+  bottom: 25%;
+  right: 10%;
+}
